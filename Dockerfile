@@ -1,4 +1,4 @@
-FROM webdevops/php-apache-dev:7.3
+FROM webdevops/php-apache-dev:7.2
 
 RUN apt update
 
