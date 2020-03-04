@@ -13,4 +13,4 @@ RUN apt install -y nodejs
 RUN npm install -g grunt-cli
 
 # Blackbox
-RUN mkdir /tmp && git clone https://github.com/StackExchange/blackbox.git && cd blackbox && make copy-install
+RUN cd /tmp && git clone https://github.com/StackExchange/blackbox.git && cd blackbox && make copy-install
